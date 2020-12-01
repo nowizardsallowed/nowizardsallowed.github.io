@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		".nav_currentlySelected {\n\tcolor: green;\n}\n\n.nav_notSelected {\n\tcolor: black;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,sBAAsB,CAAC,EACtB,KAAK,EAAE,KAAK,GACZ;;AAED,AAAA,gBAAgB,CAAC,EAChB,KAAK,EAAE,KAAK,GACZ"
+}
