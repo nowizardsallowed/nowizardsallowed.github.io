@@ -4,12 +4,12 @@
 
 header {
 	background-color: purple;
-	position: fixed;
+	position: static;
 	top: 0;
 	left: 0;
 	right: 0;
 	height: 80px;
-	display: flex;
+	display: flex;	
 	align-items: center;
 	box-shadow: 0 0 5px 0 black;
 }
@@ -54,6 +54,7 @@ body {
 	flex-shrink: 0;
 	height: 30px;
 	display: flex;
+	margin: -8px;
 	align-items: center;
 	background-color: purple;
 }
@@ -62,6 +63,13 @@ body {
 	font-family: Helvetica, sans-serif;
 	color: black;
 	margin-right: 30px;
+	text-decoration: none;
+	outline: none;
+}
+
+.footer a:hover {
+	color: white;
+	background: black;
 }
 
 .footer ul {
@@ -76,7 +84,7 @@ body {
 }
 
 .nav_items {
-	position: fixed;
+	position: static;
 }
 
 .nav_post {
@@ -84,7 +92,7 @@ body {
 	margin-left: 30px;
 }
 
-p {
+p, h1, h2, h3 {
 	font-family: Helvetica, Arial, sans-serif;
 	text-overflow: "-";
 }
@@ -104,3 +112,8 @@ table {
 	padding-top: 35px;
 }
 
+.a_post {
+	text-decoration: none;
+	color: white;
+	background: black;
+}

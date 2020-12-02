@@ -1,52 +1,10 @@
 ---
 layout: post
 author: nowiz
+img: /assets/images/1.jpeg
+excerpt_separator: <!--more-->
 ---
 
-# Heading
-***
+This is my article, ooh, isn't it nice?
 
-## Smaller heading
-
-
-T
-h
-i
-s
-
-
-i
-s
-
-
-a
-
-
-v
-e
-r
-y
-
-
-l
-o
-n
-g
-
-p
-o
-s
-t
-
-
-
-
-
-
-hehe
-
-
-
-
-hehe
-
+<!--more-->

@@ -6,9 +6,9 @@ title: Blog
 <h1>Latest Posts:</h1>
 <ul>
 	{% for post in site.posts %}
-	<li>
-		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	<div class="postExcerpt" style="background-image: url({{post.img}}); background-size: cover; background-repeat: no-repeat; background-position: center;">
+		<h2><a class="a_post" href="{{ post.url }}">{{ post.title }}</a></h2>
 		{{ post.excerpt }}
-	</li>
+	</div>
 	{% endfor %}
 <ul>

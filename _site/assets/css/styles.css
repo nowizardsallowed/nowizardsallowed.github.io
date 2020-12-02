@@ -1,6 +1,6 @@
 .nav_currentlySelected { color: white; }
 
-header { background-color: purple; position: fixed; top: 0; left: 0; right: 0; height: 80px; display: flex; align-items: center; box-shadow: 0 0 5px 0 black; }
+header { background-color: purple; position: static; top: 0; left: 0; right: 0; height: 80px; display: flex; align-items: center; box-shadow: 0 0 5px 0 black; }
 
 header img { height: 80px; margin-left: 10px; }
 
@@ -16,24 +16,28 @@ body { display: flex; flex-direction: column; }
 
 .content { flex: 1 0 auto; }
 
-.footer { flex-shrink: 0; height: 30px; display: flex; align-items: center; background-color: purple; }
+.footer { flex-shrink: 0; height: 30px; display: flex; margin: -8px; align-items: center; background-color: purple; }
 
-.footer a { font-family: Helvetica, sans-serif; color: black; margin-right: 30px; }
+.footer a { font-family: Helvetica, sans-serif; color: black; margin-right: 30px; text-decoration: none; outline: none; }
+
+.footer a:hover { color: white; background: black; }
 
 .footer ul { display: flex; align-items: center; }
 
 .footer img { height: 15px; width: 15px; margin-right: 8px; }
 
-.nav_items { position: fixed; }
+.nav_items { position: static; }
 
 .nav_post { display: block; margin-left: 30px; }
 
-p { font-family: Helvetica, Arial, sans-serif; text-overflow: "-"; }
+p, h1, h2, h3 { font-family: Helvetica, Arial, sans-serif; text-overflow: "-"; }
 
 td { font-family: Helvetica, sans-serif; white-space: nowrap; overflow: hidden; }
 
 table { width: 100%; padding: 1px; }
 
 .nav_postWrap { padding-top: 35px; }
+
+.a_post { text-decoration: none; color: white; background: black; }
 
 /*# sourceMappingURL=styles.css.map */
