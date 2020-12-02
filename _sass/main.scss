@@ -53,10 +53,12 @@ body {
 .footer {
 	flex-shrink: 0;
 	height: 30px;
+	width: 100%;
 	display: flex;
-	margin: -8px;
+	margin-bottom: -8px;
 	align-items: center;
 	background-color: purple;
+	
 }
 
 .footer a {
