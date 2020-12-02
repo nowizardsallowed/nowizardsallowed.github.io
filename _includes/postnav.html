@@ -1,0 +1,17 @@
+<nav class="nav_postWrap">
+	<table>	
+	<tr class="nav_items">
+		{% for item in site.data.navigation %}
+		<td><a href="{{ item.link }}" 
+			{% if page.url == item.link %} class="nav_currentlySelected" {% endif %}>
+			~\{{ item.name | downcase }}
+		</a></td>
+	{% endfor %}
+	</tr>
+	<tr class="nav_post">
+		<td>
+			You are reading: <b>{{ page.title }}</b> by <i>{{ page.author }}</i> ({{ page.date | date_to_string }}).
+		</td>	
+	</tr>
+	</table>
+</nav>

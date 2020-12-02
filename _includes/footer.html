@@ -1,0 +1,10 @@
+<footer class="footer">
+		<ul>
+			{% for account in site.data.accounts %}
+			<img src="{{account.img}}">		
+			<a href="{{ account.link }}">
+				{{ account.name | downcase }}
+			</a>		
+			{% endfor %}
+		</ul>
+</footer>

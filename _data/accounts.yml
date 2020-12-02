@@ -1,0 +1,6 @@
+- name: Github
+  link: https://github.com/nowizardsallowed
+  img: /assets/images/github.png
+- name: Source
+  link: https://github.com/nowizardsallowed/nowizardsallowed.github.io
+  img: /assets/images/git.png

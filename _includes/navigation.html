@@ -1,9 +1,8 @@
 <nav style="colour: purple;">
 	{% for item in site.data.navigation %}
 		<a href="{{ item.link }}" 
-			{% if page.url == item.link %} class="nav_currentlySelected" 
-			{% else %} class="nav_notSelected" {% endif %}>
-				{{ item.name }}
+			{% if page.url == item.link %} class="nav_currentlySelected" {% endif %}>
+			~\{{ item.name | downcase }}
 		</a>
 	{% endfor %}
 </nav>
